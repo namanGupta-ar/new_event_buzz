@@ -13,7 +13,7 @@ import { useEffect, useState } from "react";
 import Experience from "../Components/Experience.js";
 import PresentIn from "../Components/PresentIn";
 import Footer from "../Components/Footer";
-
+import Slider from "../Components/slider/Slider";
 export default function Home() {
   // const images = [
   //   { url: {image1} },
@@ -33,10 +33,9 @@ export default function Home() {
 
   return (
     <>
-    <h1>Home</h1>
       <Navbar />
-
-      <Hero
+      <Slider />
+      {/* <Hero
         cName="hero"
         heroImg={image1}
         title="Every love story is beautiful, but yours should be unique"
@@ -45,7 +44,8 @@ export default function Home() {
         btnClass="show"
         //buttonText="Explore More"
         //  ExploreLogo={<SouthEastIcon/>}
-      />
+      /> */}
+
       <Experience />
       <PresentIn />
       <Footer />

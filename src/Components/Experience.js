@@ -6,7 +6,6 @@ export default function Experience() {
     return (
         <div className="Experience">
             <h1>Experience we have</h1>
-            <p id="dream">Delivering Dreams</p>
          <ExperienceData
          heading="EVENT PLANNING & DESIGN"
          paragraph="With us, customization is guaranteed. From the very beginning, we will create a custom proposal tailored to your specific wants and needs. You'll be paired with an Infinity Event Team who will collaborate with you to bring your vision to life. We will team up with some of the best vendors in Nashville and take care of the all the details like meeting scheduling, delivery dates, payments, day-of setup, and more.

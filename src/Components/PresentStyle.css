@@ -2,6 +2,9 @@
     margin: 4rem 4rem;
 }
 .presentIn h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 3rem;
 }
 .row1{
@@ -20,10 +23,10 @@
  
     box-shadow: 0 5px 25px 2px rgba(0,0,0,0.11);
     text-align: start;
-    border-top-right-radius:7rem ;
-    border-top-left-radius:7rem ;
+    margin: 0 5px 0 5px;
     cursor: pointer;
     padding: 1rem .8rem;
+    border-radius: 7px;
 }
 .t-image{
     display: flex;

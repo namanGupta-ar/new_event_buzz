@@ -1,0 +1,59 @@
+
+.slick-prev{
+  display: none !important;
+}
+.slick-next{
+  display: none !important;
+}
+.homeSlide{
+  margin: 10rem 4rem 4rem 4rem ;
+  background-color: white;
+  border-radius: 30px;
+}
+.homeSlide h1 {
+  font-size: 45px;
+  line-height: 55px;
+  margin: 50px 0 20px 0;
+}
+.homeSlide p {
+  margin: 20px 0;
+}
+.homeSlide ul {
+  position: absolute;
+  bottom: 20px;
+}
+.homeSlide ul li {
+  border: 2px solid #b8b7b7;
+  border-radius: 50%;
+}
+.homeSlide ul li button {
+  background: transparent !important;
+  color: transparent !important;
+}
+.homeSlide ul li button::before {
+  font-size: 15px !important;
+  color: #0f3460;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  margin: auto;
+}
+.box{
+  position: relative;
+  height: 350px;
+}
+.slider-img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.left{
+  padding: 30px;
+}
+.left p{  
+  color: black;
+}
+.custom-img{
+  width: 100%;
+}

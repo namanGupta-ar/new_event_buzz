@@ -10,7 +10,6 @@ export default function PresentIn(){
     return (
         <div className="presentIn">
            <h1>Present In</h1>
-           <p>we are present in diffrent parts of the world</p>
              <div className="presentInCard">
             <div className="row1">
             <PresentInData
